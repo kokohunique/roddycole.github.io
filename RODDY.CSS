@@ -1,0 +1,51 @@
+
+body{
+    background-image: url("../.img/kokom.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size:  contain;
+    background-color: rgb(191, 218, 181);
+    font-family: "poppins", sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.container{
+    max-width: 144px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+    
+    nav ul li{
+        margin : 0.5rem;
+        position:relative;
+    }
+
+h1{
+    color: black ;
+}
+
+ 
+
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1rem;
+}
+
+BODY{
+    overflow-y: scroll; /* or auto */
+}
+.container{
+    height: 100px;
+    overflow-y: auto;
+}
